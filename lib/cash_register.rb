@@ -3,8 +3,8 @@ class CashRegister
 attr_accessor :total, :items_array, :discount
 @@items_array = []
 
-  def initialize(total)
-      @total=total
+  def initialize(n)
+      @total=0
       #@discount=20
   end
 
