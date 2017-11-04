@@ -28,4 +28,8 @@ attr_accessor :total, :items_array, :discount
     @@items_array
   end
 
+  def void_last_transaction
+    
+  end
+
 end
