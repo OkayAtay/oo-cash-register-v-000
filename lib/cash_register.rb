@@ -1,6 +1,7 @@
 require 'pry'
 class CashRegister
 attr_accessor :total, :items_array, :discount
+
 @@items_array = []
 
   def initialize(n)
