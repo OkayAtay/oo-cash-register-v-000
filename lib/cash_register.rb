@@ -19,7 +19,6 @@ attr_accessor :total, :items_array, :discount
   end
 
   def apply_discount
-    binding.pry
      @total*".8".to_f
     puts "After the discount, the total comes to #{@total}"
   end
