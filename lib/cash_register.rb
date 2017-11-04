@@ -23,7 +23,7 @@ attr_accessor :total, :items_array
 
   def apply_discount
     binding.pry
-    self.total*(.8) = self.total
+    self.total*".8".to_f = self.total
     puts "After the discount, the total comes to #{self.total}"
   end
 
