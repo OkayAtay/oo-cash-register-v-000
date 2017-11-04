@@ -1,6 +1,6 @@
 require 'pry'
 class CashRegister
-attr_accessor :total, :items_array, :price
+attr_accessor :total, :items_array
 @@items_array = []
 
   def initialize(n=0)
@@ -17,13 +17,13 @@ attr_accessor :total, :items_array, :price
 
   def add_item(item, price, quantity = 1)
     @@items_array << item
-    @price = price
-    self.total += @price*quantity
+    self.total += price*quantity
 
   end
 
   def apply_discount
     #binding.pry
+    self.total = @price*.8*
     puts "After the discount, the total comes to #{}"
   end
 
