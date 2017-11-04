@@ -8,10 +8,6 @@ attr_accessor :total, :items_array, :discount
       @discount=20
   end
 
-  def discount
-    @total = 20
-  end
-
   def total
     @total
   end
