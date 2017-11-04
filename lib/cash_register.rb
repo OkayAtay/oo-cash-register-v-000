@@ -22,7 +22,6 @@ attr_accessor :total, :items_array, :discount
 
   def apply_discount
     @total = @total - (@total*@discount*0.01)
-     @total*".8".to_f
     puts "After the discount, the total comes to #{@total}"
   end
 
