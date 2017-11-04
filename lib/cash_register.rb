@@ -14,7 +14,7 @@ attr_accessor :total, :items_array, :discount
   end
 
   def add_item(item, price, quantity = 1)
-    @@items_array << item
+    @items_array << item
     self.total += price*quantity
 
   end
