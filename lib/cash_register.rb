@@ -23,7 +23,7 @@ attr_accessor :total, :items_array, :price
   end
 
   def apply_discount
-    binding.pry
+    #binding.pry
     puts "After the discount, the total comes to #{}"
   end
 
