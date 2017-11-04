@@ -5,7 +5,6 @@ attr_accessor :total, :items_array, :discount
 
   def initialize(discount=0)
       @total=0
-      @discount=20
       @items_array = []
   end
 
