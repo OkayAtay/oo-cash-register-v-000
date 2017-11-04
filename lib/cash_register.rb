@@ -8,7 +8,7 @@ attr_accessor :total, :items_array
   end
 
   def discount
-    self.total = 20
+    @total = 20
   end
 
   def total
