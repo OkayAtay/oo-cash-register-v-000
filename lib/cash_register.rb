@@ -4,9 +4,9 @@ attr_accessor :total, :items_array, :discount
 
 @@items_array = []
 
-  def initialize(n)
+  def initialize(n=0)
       @total=0
-      #@discount=20
+      @discount=20
   end
 
   def total
