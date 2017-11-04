@@ -25,11 +25,11 @@ attr_accessor :total, :items_array, :discount
   end
 
   def items
-    @@items_array
+    @items_array
   end
 
   def void_last_transaction
-    
+
   end
 
 end
