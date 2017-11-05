@@ -1,6 +1,6 @@
 require 'pry'
 class CashRegister
-attr_accessor :total, :items_array, :discount. :most_recent_price
+attr_accessor :total, :items_array, :discount, :most_recent_price
 
 
   def initialize(discount=0)
