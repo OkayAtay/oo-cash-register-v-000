@@ -30,6 +30,7 @@ attr_accessor :total, :items_array, :discount
   end
 
   def items
+    binding.pry
     @items_array
   end
 
