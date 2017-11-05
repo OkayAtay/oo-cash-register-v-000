@@ -30,7 +30,6 @@ attr_accessor :total, :items_array, :discount
   end
 
   def items
-
     @items_array
   end
 
