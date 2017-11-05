@@ -16,7 +16,6 @@ attr_accessor :total, :items_array, :discount, :most_recent_price
 
   def add_item(item, price, quantity=1)
     @most_recent_price = price
-    binding.pry
     quantity.times {@items_array << item}
     @total += @most_recent_price*quantity
   end
