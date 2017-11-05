@@ -15,6 +15,7 @@ attr_accessor :total, :items_array, :discount
   end
 
   def add_item(item, price, quantity=1)
+    binding.pry
     (@items_array << item)*quantity
     self.total += price*quantity
 
@@ -34,7 +35,7 @@ attr_accessor :total, :items_array, :discount
   end
 
   def void_last_transaction
-    binding.pry
+
     @items_array.pop
     @items_array
 
