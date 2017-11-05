@@ -34,6 +34,7 @@ attr_accessor :total, :items_array, :discount, :most_recent_price
   end
 
   def void_last_transaction
+    binding.pry
     @most_recent_price = 0
   end
 
