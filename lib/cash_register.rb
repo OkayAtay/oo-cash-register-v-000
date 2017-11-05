@@ -34,7 +34,7 @@ attr_accessor :total, :items_array, :discount
 
   def void_last_transaction
 
-    @items_array.pop
+    @items_array[@items_array.length]
     @items_array
 
   end
