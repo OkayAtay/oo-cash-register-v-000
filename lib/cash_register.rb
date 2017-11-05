@@ -35,6 +35,7 @@ attr_accessor :total, :items_array, :discount
   end
 
   def void_last_transaction
+    @items_array.pop
 
   end
 
