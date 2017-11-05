@@ -15,6 +15,7 @@ attr_accessor :total, :items_array, :discount. :most_recent_price
   end
 
   def add_item(item, price, quantity=1)
+    @most_recent_price = price
     (@items_array << item)*quantity
     @total += price*quantity
   end
