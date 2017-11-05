@@ -1,6 +1,6 @@
 require 'pry'
 class CashRegister
-attr_accessor :total, :items_array, :discount
+attr_accessor :total, :items_array, :discount. :most_recent_price
 
 
   def initialize(discount=0)
@@ -15,7 +15,7 @@ attr_accessor :total, :items_array, :discount
   end
 
   def add_item(item, price, quantity=1)
-    @items_array << (quantity, item)
+    (@items_array << item)*quantity
     @total += price*quantity
   end
 
