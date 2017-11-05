@@ -35,7 +35,7 @@ attr_accessor :total, :items_array, :discount, :most_recent_price
 
   def void_last_transaction
     @most_recent_price = 0
-    @total -= @most_recent_price
+    @total = @total - @most_recent_price
   end
 
 end
